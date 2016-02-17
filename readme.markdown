@@ -6,7 +6,7 @@ This is a clone for [watchify]
 to support detecting new entries.
 
 It is based on this [pr](https://github.com/substack/watchify/pull/297),
-and whenever [watchify] handles watching adding/removing entry files,
+and once [watchify] handles watching adding/removing entry files,
 this package will be deprecated.
 
 # Usage
