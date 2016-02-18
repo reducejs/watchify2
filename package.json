@@ -15,10 +15,14 @@
   },
   "devDependencies": {
     "brfs": "^1.0.1",
+    "common-bundle": "^0.1.5",
+    "del": "^2.2.0",
+    "factor-bundle": "^2.5.0",
     "mkdirp": "~0.5.1",
     "split": "^1.0.0",
     "tape": "^4.2.2",
     "uglify-js": "^2.5.0",
+    "vinyl-fs": "^2.3.1",
     "win-spawn": "^2.0.0"
   },
   "scripts": {
