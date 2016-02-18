@@ -100,7 +100,23 @@ function dedupify(b) {
 
 ```
 
-The `dedupify` plugin in the example above is used to fix a known problem with browserify (see [substack/factor-bundle#51]).
+When running the script above,
+you can do something like:
+```bash
+cd example/files
+
+# add new entries and new bundles are created
+cp main.js main2.js
+
+# edit main2.js
+
+# delete entries and bundles are removed
+rm main2.js
+
+```
+
+The `dedupify` plugin in the example above is used to fix a known problem with browserify (see [substack/factor-bundle#51]),
+which will happen here when `cp main.js main2.js`.
 
 Right now it is a little tricky to detect new entries with [factor-bundle],
 so [common-bundle] is used instead.
